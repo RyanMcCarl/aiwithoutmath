@@ -1,0 +1,16 @@
+    {% extends "template.html" %}
+
+    {% block content %}
+
+    <p>Here are the results for "<em>{{ query }}</em>"</p>
+
+    <p>
+        <ol>
+        {% block results %}
+        {% for hit in results%}
+            <li><a href="{{ url_for('dynamicpath', some_variable=hit[1]) }}">{{ hit[1] }}</a> ({{ hit[0] }}% match)</li>
+        {% endfor %}
+        {% endblock %}
+        </ol>
+    </p>
+    {% endblock %}

@@ -1,0 +1,14 @@
+    {% extends "template.html" %}
+    {% block title %}AI without the math{% endblock %}
+
+    {% block content %}
+
+    <p>Know what you are looking for? Simply type the word here:
+        <form class="form-inline input-lg" method="post">
+            <input type="text" name="query" placeholder="term (e.g., AI)">
+        </form>
+    </p>
+
+    <p>Otherwise, why not start with our simple <a href="{{ url_for('dynamicpath', some_variable='ai') }}">explainer</a>?</p>
+
+    {% endblock %}

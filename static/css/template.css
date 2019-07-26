@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    font-size: 2em;
+    background-image: url("../img/bg.jpg");
+}
+
+h2{
+    font-style: italic;
+}
+
+.starter-template {
+  text-align: center;
+}
+
+.container {
+    height: 100vh;
+    min-height: 100vh;
+/*    border: 5px solid red; */
+}
+
+.row{
+    margin: 0px;
+    padding: 1em;
+/*    border: 5px solid green; */
+}
+
+.content{
+    height: 100%;
+    min-height: 100%;
+    margin-top: 2em;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow-x: scroll;
+    /*    border: 5px solid blue;*/
+}
+

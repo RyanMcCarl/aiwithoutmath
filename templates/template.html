@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="AI without the math">
+    <meta name="author" content="A working group">
+
+    {% if entry %}
+        <title> {% block title %}{{ entry }}{% endblock %}</title>
+    {% else %}
+        <title>AI without Math</title>
+    {% endif %}
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/template.css')}}" rel="stylesheet">
+ </head>
+
+ <body class="h-100">
+
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container1">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url_for('home') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="h-100 container">
+        <div class="h-100 content">
+            <div class="starter-template row">
+                <h1>AI without the math</h1>
+                <p class="lead">An explainer for decision-makers</p>
+            </div>
+
+            <div class="h-100 row">
+                <!--{% if entry %}-->
+                  <!--<h2>{{ entry }}</h2>-->
+                <!--{% endif %}-->
+                {% block content %}
+                {% if text %}
+                  {{ text|markdown }}
+                {% endif %}
+                {% endblock %}
+            </div>
+        </div>
+    </div><!-- /.container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{{ url_for('static', filename='js/ie10-viewport-bug-workaround.js')}}"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet-src.js"></script>
+    <script src="http://leaflet.github.io/Leaflet.label/leaflet.label.js"></script>
+    <!--<script src="{{ url_for('static', filename='js/humboldt.js')}}"></script>-->
+
+ </body>
+</html>
