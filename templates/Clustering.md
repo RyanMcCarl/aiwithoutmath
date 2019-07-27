@@ -6,17 +6,17 @@ Well, we then need to divide them based on how many things they have in common w
 
 Say we want to have three groups at the end, so we pick three people, and start to compare the others to them:
 
-1- Noura: lives in Canada, works at a hospital. 
-2- Adam: lives in  Canada, works at a school. 
-3- Anne: lives in the United States, works at a university. 
+1- Noura: lives in Canada, works at a hospital.
+2- Adam: lives in  Canada, works at a school.
+3- Anne: lives in the United States, works at a university.
 
 Then we picked one other person who lives in Germany and works at a hospital, so we can put her in the group of Noura because they have more in common she does with Adam or Anne, and so on until we have all people in groups.
 
 Now we discover that the group of Noura is now as follows: most of the people live in Germany and work at a hospital, so maybe the person representing this group  is not really Noura, because she lives in Canada, and thus most of the people have only the place of work in common with her, but not the country. So we pick another person, who lives in Germany and works at a hospital to be the new representer of the group and now we have the following groups:
 
-1- Manfred: lives in Germany, works at a hospital. 
-2- Adam: lives in  Canada, works at a school. 
-3- Anne: lives in the United States, works at a university. 
+1 - Manfred: lives in Germany, works at a hospital.
+2 - Adam: lives in  Canada, works at a school.
+3 - Anne: lives in the United States, works at a university.
 
 And then we go again and reassign all the people to the groups, because now that we have changed the person representing the first group, they might be people who live in Germany who were previously assigned to other groups.
 

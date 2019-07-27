@@ -10,7 +10,6 @@ By connecting many such operations into a neural network, CNNs are able to detec
 
 Ultimately, CNNs are useful for tasks like classification, detection, and segmentation.
 
-
 ![https://en.wikipedia.org/wiki/Artificial_neural_network](../static/img/11d8de35b69ec3b8f8f919353738754affb1a87f.png)
 
 ![https://towardsdatascience.com/detection-and-segmentation-through-convnets-47aa42de27ea](../static/img/5a148f7deb56537fa28245bc0f8a921b992fe237.png)

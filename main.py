@@ -19,7 +19,6 @@ def home():
 def about():
     return render_template("about.html")
 
-
 def search(request_form):
     """
     search method called from both welcome() and about()
@@ -41,10 +40,10 @@ def search(request_form):
     return render_template("search.html", query=query, results=results)
 
 
-@app.route("/<some_variable>")
-def dynamicpath(some_variable):
-    mkd = open('templates/{}.md'.format(some_variable)).readlines()
-    return render_template('template.html', entry=some_variable.title(), text=' '.join(mkd))
+@app.route("/<page>")
+def dynamicpath(page):
+    mkd = open('templates/{}.md'.format(page)).readlines()
+    return render_template('template.html', entry=page.title(), text=' '.join(mkd))
 
 
 @app.route("/test")

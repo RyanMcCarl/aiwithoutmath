@@ -8,7 +8,7 @@
         <ol>
         {% block results %}
         {% for hit in results%}
-            <li><a href="{{ url_for('dynamicpath', some_variable=hit[1]) }}">{{ hit[1] }}</a> ({{ hit[0] }}% match)</li>
+            <li><a href="{{ url_for('dynamicpath', page=hit[1]) }}">{{ hit[1] }}</a> ({{ hit[0] }}% match)</li>
         {% endfor %}
         {% endblock %}
         </ol>

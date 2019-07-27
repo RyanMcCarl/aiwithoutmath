@@ -22,5 +22,4 @@ continual stream of data
 
 5.	Evaluation of models
 
-
-The failings of each method can be identified by considering failings in each of these steps. 
+The failings of each method can be identified by considering failings in each of these steps.
