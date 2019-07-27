@@ -51,4 +51,5 @@ def test():
     return render_template("template.html", text='*this is an example*')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    pass
+    #app.run(debug=True)
