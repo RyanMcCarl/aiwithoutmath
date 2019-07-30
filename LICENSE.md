@@ -1,0 +1,3 @@
+LICENSE
+
+The "AI Without Math" name, concept, and website are copyright-protected material owned by [Ryan McCarl](mailto:mccarl@law.ucla.edu); please contact Ryan for permission before reproducing it for distribution outside of a classroom. Volunteer contributors to the site retain co-ownership of their content and are free to reuse that content as they wish. Permission is hereby granted to use the site's content for noncommercial educational purposes only so long as you link to the site and credit the site as well as credit the listed authors of any content you wish to use.
