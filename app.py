@@ -49,4 +49,4 @@ def dynamicpath(page):
     return render_template('template.html', entry=page.title(), text=mkd)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
