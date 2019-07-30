@@ -1,17 +1,16 @@
 {% extends "template.html" %}
 {% block title %}AI without the math{% endblock %}
 {% block content %}
-	<p style="text-align: center; font-style: italic; font-size: 12pt">This website is a work in progress and a rough prototype of what is to come. If you can contribute to this resource in any way (writing and editing content, funding, design and development, etc.), please contact <a href="mailto:mccarl@law.ucla.edu">Ryan McCarl</a>.</p>
+	<p style="text-align: center; font-style: italic; font-size: 12pt">This website is a work in progress and a rough prototype of what is to come. If you can contribute to this resource in any way (content, design, funding, publicity), please contact <a href="mailto:mccarl@law.ucla.edu">Ryan McCarl</a>.</p>
 	<br>
-	<h2>Search</h2>
+	<h2>Concepts and articles</h2>
 	<br>
-	<p>Know what you are looking for? Simply type the word here:
-		<form class="form-inline input-lg" method="post">
-			<input type="text" name="query" placeholder="term (e.g., AI)">
-		</form>
-	</p>
-	<p>Otherwise, why not start with our simple <a href="{{ url_for('dynamicpath', page='ai') }}">explainer</a>?</p>
-	<h2>Articles</h2>
+	<p>Why not start with our simple <a href="{{ url_for('dynamicpath', page='ai') }}">explainer</a>?</p>
+	<br>
+	<form class="form-inline input-lg" method="post">
+		<input type="text" name="query" placeholder="Search articles">
+	</form>
+	<br>
 	<ul>
 		<li><a href="{{ url_for('dynamicpath', page='clustering') }}">Clustering</a></li>
 		<li><a href="{{ url_for('dynamicpath', page='convolutional neural network') }}">Convolutional neural networks</a></li>
@@ -22,6 +21,7 @@
 		<li><a href="{{ url_for('dynamicpath', page='mlprocess') }}">Machine learning process</a></li>
 		<li><a href="{{ url_for('dynamicpath', page='naive bayes') }}">Naive Bayes algorithm</a></li>
 		<li><a href="{{ url_for('dynamicpath', page='neural networks') }}">Neural networks</a></li>
+		<li><a href="{{ url_for('dynamicpath', page='rational agent') }}">Rational agents</a></li>
 		<li><a href="{{ url_for('dynamicpath', page='recurrent neural networks') }}">Recurrent neural networks</a></li>
 		<li><a href="{{ url_for('dynamicpath', page='topquestions') }}">Top questions to ask AI/ML developers</a></li>
 	</ul>

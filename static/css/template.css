@@ -4,8 +4,12 @@ body {
     background-image: url("../img/aibackground.jpg");
 }
 
-h2{
+h1{
 	text-align: center;
+}
+
+h2 {
+	font-size: 1.5em;
 }
 
 .starter-template {
@@ -25,7 +29,6 @@ h2{
 .content{
     height: 100%;
     min-height: 100%;
-    margin-top: 2em;
     background-color: rgba(255, 255, 255, 0.9);
     overflow-x: scroll;
     margin: 10%;
