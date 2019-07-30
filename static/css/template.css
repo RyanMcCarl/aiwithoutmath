@@ -15,13 +15,11 @@ h2{
 .container {
     height: 100vh;
     min-height: 100vh;
-/*    border: 5px solid red; */
 }
 
 .row{
     margin: 0px;
     padding: 1em;
-/*    border: 5px solid green; */
 }
 
 .content{
@@ -30,6 +28,6 @@ h2{
     margin-top: 2em;
     background-color: rgba(255, 255, 255, 0.9);
     overflow-x: scroll;
-    /*    border: 5px solid blue;*/
+    margin: 10%;
 }
 
