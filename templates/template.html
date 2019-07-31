@@ -13,7 +13,7 @@
     {% if entry %}
         <title> {% block title %}{{ entry }}{% endblock %}</title>
     {% else %}
-        <title>AI Without Math</title>
+        <a href="{{ url_for('dynamicpath', page='home') }}"><title>AI Without Math</title></a>
     {% endif %}
 
     <!-- Bootstrap core CSS -->
@@ -48,7 +48,7 @@
     <div class="h-100 container">
         <div class="h-100 content">
             <div class="starter-template row">
-                <h1>AI Without Math</h1>
+        <a href="{{ url_for('dynamicpath', page='home') }}"><title>AI Without Math</title><h1>AI Without Math</h1></a>
                 <p class="lead">Making AI and ML comprehensible</p>
             </div>
 
