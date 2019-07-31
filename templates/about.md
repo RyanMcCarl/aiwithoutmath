@@ -18,3 +18,11 @@ This website is a work in progress; in its current version, it is meant to be on
 - Founder and Editor-in-Chief: [Ryan McCarl](http://ryanmccarl.com)
 - This website was imagined and prototyped at the 2019 Summer Institute on AI and Society hosted by the [Alberta Machine Intelligence Institute](https://www.amii.ca/) and sponsored by [CIFAR](https://www.cifar.ca/) and the [PULSE Project](http://aipulse.org) at the UCLA School of Law. The following people participated in the workgroup and developed the initial website and its content: Ryan McCarl, Dirk Hovy, Heather von Stackelberg, Jodie Lobana, Dania Humaidan, Gursimran Singh, Kristen Schell, Martha White, and Brandon Leshchinskiy.
 - Background photo by Florian Weihmann from Pexels.
+
+<br>
+#### License
+<br>
+
+The "AI Without Math" name, concept, and website are protected by copyright. Please contact [Ryan McCarl](mailto:mccarl@law.ucla.edu) for permission before reproducing any of this site's content for distribution (except for noncommercial personal or classroom use.) Volunteer contributors to the site retain co-ownership of their content and are free to reuse it as they wish.
+
+You may use the site's content for noncommercial educational purposes if you link to the site, credit the site, and credit any authors listed with the content you wish to use. For other uses, please contact us.
