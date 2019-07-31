@@ -6,7 +6,9 @@ Neural networks are a class of algorithms that are used in many machine learning
 
 Convolution is a special type of operation that answers the question, “How much of B is in A?”, where A is often an image, and B is often a pattern. For instance, if A is an image of a house, and B is a horizontal edge, the convolution might return the following image:
 
-By connecting many such operations into a neural network, CNNs are able to detect increasingly complex features. For example, in a CNN for face detection, early layers look for edges, intermediate layers look for facial components, and later layers look for full faces:
+By connecting many such operations into a neural network, CNNs are able to detect increasingly complex features. For example, in a CNN for face detection, early layers look for edges, intermediate layers look for facial components, and later layers look for full faces.
+
+![http://aishack.in/tutorials/image-convolution-examples/](../static/img/f106fcf57b03f8bcbf7bcf1d71dcc739c9f7627d.png)
 
 Ultimately, CNNs are useful for tasks like classification, detection, and segmentation.
 
@@ -16,4 +18,3 @@ Ultimately, CNNs are useful for tasks like classification, detection, and segmen
 
 ![https://devblogs.nvidia.com/deep-learning-nutshell-core-concepts/](../static/img/77341d9a760c3ca5a4134b8a804b5c436151a802.png)
 
-![http://aishack.in/tutorials/image-convolution-examples/](../static/img/f106fcf57b03f8bcbf7bcf1d71dcc739c9f7627d.png)
