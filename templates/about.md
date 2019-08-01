@@ -7,12 +7,12 @@ Many resources on AI and ML are either too general or too technical. There are  
 We are therefore developing AI Without Math, a prototype website which will communicate fundamental AI and ML concepts to an educated but nontechnical audience. We hope to expand the website to include many more topics as well as nontechnical concepts (such as "explanability") that form part of the shared vocabulary of AI researchers. Other ideas for the website include offering alternative explanations for complicated topics (perhaps with some voting mechanism, similar to that used on StackOverflow and Quora, in which readers can upvote and downvote explanations); linking to off-site explanations; and illustrating concepts with multimedia resources such as videos, games, and demonstrations.
 
 <br>
-# Call for contributions
+## Call for contributions
 
 This website is a work in progress; however, it fills an urgent need and ought to be developed as soon as possible. If you can contribute in any way (writing, editing, web development, funding, or publicity), please review the [contributor guidelines](https://www.aiwithoutmath.com/contributor%20guidelines), then create a pull request or issue on our Github page or contact site editor [Ryan McCarl](mailto:mccarl@law.ucla.edu).
 
 <br>
-# Credits
+## Credits
 <br>
 
 - Founder and Editor-in-Chief: [Ryan McCarl](http://ryanmccarl.com)
