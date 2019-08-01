@@ -21,11 +21,11 @@ Here are some guidelines for contributors. Please carefully review them all befo
 
 - Please review other articles on [aiwithoutmath.com](aiwithoutmath.com) to get a sense of the tone, style, and level of  technicality we are looking for. We want each article on our site to meet the following criteria:
 
-(1) *Clarity*: Articles must be comprehensible to college-educated people without a background in mathematics or computer science. Use plain language whenever possible. All jargon or technical vocabulary must be defined and explained.
-(2) *Depth*: Avoid superficial overviews. Try to explain how concepts and algorithms actually work.
-(3) *Examples*: Try to include explanatory analogies of each concept as well as examples of how each technique you describe can be used.
-(4) *Concision*: Articles should be as short as possible.
-(5) *Modularity*: Articles should be self-contained and not require reference to other articles (but optional links to other articles and outside resourecs are welcome).
+1. *Clarity*: Articles must be comprehensible to college-educated people without a background in mathematics or computer science. Use plain language whenever possible. All jargon or technical vocabulary must be defined and explained.
+2. *Depth*: Avoid superficial overviews. Try to explain how concepts and algorithms actually work.
+3. *Examples*: Try to include explanatory analogies of each concept as well as examples of how each technique you describe can be used.
+4. *Concision*: Articles should be as short as possible.
+5. *Modularity*: Articles should be self-contained and not require reference to other articles (but optional links to other articles and outside resourecs are welcome).
 
 - **Math**. Although the title of the website promises "no math," articles can use arithmetic, high school algebra, coordinate planes, and basic matrices if absolutely necessary to convey a concept. We prefer plain-language explanations whenever possible.
 - **Markdown**. We draft our articles in plain text files using the [Markdown](https://daringfireball.net/projects/markdown/syntax) syntax, which is easy to learn and use. If you make a  submit an article, please draft it in a plain text editor (such as [Sublime Text](https://www.sublimetext.com/)) and name it something like "neural networks.md" (using all lowercase characters and the ".md" extension).
