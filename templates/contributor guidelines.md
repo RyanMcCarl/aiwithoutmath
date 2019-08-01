@@ -2,19 +2,22 @@
 
 [AI Without Math](http://www.aiwithoutmath.com) needs and welcomes contributions of any kind. To be a valuable resource, the site needs to add (and carefully review) articles and resources covering most of the important topics and algorithms in AI and machine learning. Contributing to the site is a great way to practice explaining AI concepts, create a portfolio of writing about AI and ML, and be part of a project that will make in-depth knowledge about AI accessible to a broad audience.
 
+The best way to contribute writing or editing is to make a pull request to our [Github repository](https://github.com/RyanMcCarl/aiwithoutmath). If you don't know how to make pull requests, please submit your article or edits as markdown files attached to an [issue](https://github.com/RyanMcCarl/aiwithoutmath/issues) on the Github page.
+
 Here are some guidelines for contributors. Please carefully review them all before submitting.
 
-# General guidelines
+## Editing guidelines
 
-- The best way to contribute writing or editing is to make a pull request to our [Github repository](https://github.com/RyanMcCarl/aiwithoutmath) are preferred. If you don't know how to make pull requests, please submit your article or edits as markdown files attached to an [issue](https://github.com/RyanMcCarl/aiwithoutmath/issues) on the Github page.
+- We welcome aggressive editing for accuracy, concision, and style. We hope to have at least two technical reviewers and two non-technical reviewers for each article.
+- If you want to write a completely different explanation for a concept, that is fine too. We may choose to post both explanations or to blend the two explanations.
 
-# Development guidelines
+## Development guidelines
 
-- Our site is currently in the prototype stage; as such, it is visually unattractive. The editor is not a professional web developer. We encourage designers and developers with expertise in Bootstrap 4, Sass, and CSS to submit pull requests or make UI/UX suggestions.
+- The editor is not a professional web developer. We encourage designers and developers with expertise in Bootstrap 4, Sass, and CSS to submit pull requests or make UI/UX suggestions.
 - Developers with expertise in Python and Flask can also submit pull requests to improve our code.
 - If a developer submits a site improvement that we use, we can credit the developer on the "About" page of the website.
 
-# Writing guidelines
+## Writing guidelines
 
 - Please review other articles on [aiwithoutmath.com](aiwithoutmath.com) to get a sense of the tone, style, and level of  technicality we are looking for. We want each article on our site to meet the following criteria:
 
@@ -38,12 +41,7 @@ Here are some guidelines for contributors. Please carefully review them all befo
 
 Note that if other authors or reviewers write about the same topic or make significant additions to your article, they may be credited as authors as well.
 
-# Editing guidelines
-
-- We welcome aggressive editing for accuracy, concision, and style. We hope to have at least two technical reviewers and two non-technical reviewers for each article.
-- If you want to write a completely different explanation for a concept, that is fine too. We may choose to post both explanations or to blend the two explanations.
-
-# Legal and practical notes
+## Legal and practical notes
 
 - **Editor's discretion**. All contributions may or may not be posted to the site in the discretion of the site's editor, who will consult as needed with reviewers. If posted, contributions may be heavily edited for accuracy, concision, style, and consistency with the site's aims.
 - **Ownership of content**. The website owners will acquire shared ownership of all content posted to the site and may use or reproduce it. If we do use or reproduce an article, we will credit the article's authors. Contributors retain co-ownership of all text they contribute. This means that if you submit an article to us, you can use the portion that you contributed on other sites or in other publications.
