@@ -6,9 +6,9 @@ Well, we then need to divide them based on how many things they have in common w
 
 Say we want to have three groups at the end, so we pick three people, and start to compare the others to them:
 
-1- Noura: lives in Canada, works at a hospital.
-2- Adam: lives in  Canada, works at a school.
-3- Anne: lives in the United States, works at a university.
+1. Noura: lives in Canada, works at a hospital.
+2. Adam: lives in  Canada, works at a school.
+3. Anne: lives in the United States, works at a university.
 
 Then we picked one other person who lives in Germany and works at a hospital, so we can put her in the group of Noura because they have more in common she does with Adam or Anne, and so on until we have all people in groups.
 
