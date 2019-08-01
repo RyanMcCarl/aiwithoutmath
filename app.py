@@ -25,7 +25,7 @@ def about():
 
 @app.route("/contributor%20guidelines")
 def guidelines():
-    mkd = open('templates/contributor%20guidelines.md').read()
+    mkd = open('templates/contributor guidelines.md').read()
     return render_template('template.html', text=mkd)
 
 def search(request_form):
