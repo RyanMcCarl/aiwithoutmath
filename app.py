@@ -23,6 +23,11 @@ def about():
     mkd = open('templates/about.md').read()
     return render_template('template.html', text=mkd)
 
+@app.route("/contributor%20guidelines")
+def guidelines():
+    mkd = open('templates/contributor%20guidelines.md').read()
+    return render_template('template.html', text=mkd)
+
 def search(request_form):
     """
     search method called from both welcome() and about()

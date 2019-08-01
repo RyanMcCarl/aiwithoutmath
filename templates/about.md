@@ -9,7 +9,7 @@ We are therefore developing AI Without Math, a prototype website which will comm
 <br>
 # Call for contributions
 
-This website is a work in progress; in its current version, it is meant to be only a prototype rather than a finished product. However, we are confident that it fills an urgent need and ought to be developed as soon as possible. If you can contribute in any way (content, design, funding, publicity), please contact [Ryan McCarl](mailto:mccarl@law.ucla.edu).
+This website is a work in progress; however, it fills an urgent need and ought to be developed as soon as possible. If you can contribute in any way (writing, editing, web development, funding, or publicity), please review the [contributor guidelines](https://www.aiwithoutmath.com/contributor%20guidelines), then create a pull request or issue on our Github page or contact site editor [Ryan McCarl](mailto:mccarl@law.ucla.edu).
 
 <br>
 # Credits
