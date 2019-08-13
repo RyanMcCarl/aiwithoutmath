@@ -24,5 +24,5 @@ One potential disadvantage is that, in the Naive Bayes algorithm, each feature i
 
 ## Related resources
 
-- [Classifiers](/classifiers)
-- [Machine learning process](/mlprocess)
+- <a href="{{ url_for('dynamicpath', page='classifiers') }}">Classifiers</a>
+- <a href="{{ url_for('dynamicpath', page='mlprocess') }}">Machine learning process</a>
