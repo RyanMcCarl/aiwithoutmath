@@ -29,7 +29,7 @@ MarkupSafe==1.1.1
 matplotlib==3.1.1
 misaka==2.1.1
 murmurhash==1.0.2
-nltk==3.4.1
+nltk==3.4.5
 numpy==1.16.4
 pandas==0.25.0
 pathlib==1.0.1
