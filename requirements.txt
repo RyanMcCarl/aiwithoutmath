@@ -18,7 +18,7 @@ future==0.17.1
 idna==2.8
 itsdangerous==1.1.0
 jellyfish==0.7.2
-Jinja2==2.10.1
+Jinja2==2.11.3
 jsonschema==3.0.1
 Kivy==1.11.1
 Kivy-Garden==0.1.4
